@@ -6,3 +6,142 @@ bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/s
 visibility full
 autoScale off
 viewLimits 0:20
+
+track Myeloid_2_RNA
+type bigWig
+shortLabel Myeloid_2_RNA
+longLabel Myeloid sorted cell signal (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_2_sorted.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+
+track Myeloid_1_H3K4me3
+type bigWig
+shortLabel Myeloid_1_H3K4me3
+longLabel Myeloid H3K4me3 (replicate 1)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K4me3_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_2_H3K4me3
+type bigWig
+shortLabel Myeloid_2_H3K4me3
+longLabel Myeloid H3K4me3 (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K4me3_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_1_H3K4me1
+type bigWig
+shortLabel Myeloid_1_H3K4me1
+longLabel Myeloid H3K4me1 (replicate 1)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K4me1_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_2_H3K4me1
+type bigWig
+shortLabel Myeloid_2_H3K4me1
+longLabel Myeloid H3K4me1 (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K4me1_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_1_H3K27me3
+type bigWig
+shortLabel Myeloid_1_H3K27me3
+longLabel Myeloid H3K27me3 (replicate 1)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K27me3_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_2_H3K27me3
+type bigWig
+shortLabel Myeloid_2_H3K27me3
+longLabel Myeloid H3K27me3 (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K27me3_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+
+track Myeloid_1_H3K27ac
+type bigWig
+shortLabel Myeloid_1_H3K27ac
+longLabel Myeloid H3K27ac (replicate 1)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K27ac_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_2_H3K27ac
+type bigWig
+shortLabel Myeloid_2_H3K27ac
+longLabel Myeloid H3K27ac (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K27ac_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+
+track Myeloid_1_CTCF
+type bigWig
+shortLabel Myeloid_1_CTCF
+longLabel Myeloid CTCF (replicate 1)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00CTCF_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_2_CTCF
+type bigWig
+shortLabel Myeloid_2_CTCF
+longLabel Myeloid CTCF (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98CTCF_merged.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_1_CpGmeth
+type bigWig
+shortLabel Myeloid_1_CpGmeth
+longLabel Myeloid CpGmeth (replicate 1)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_6800_CpGmeth.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_2_CpGmeth
+type bigWig
+shortLabel Myeloid_2_CpGmeth
+longLabel Myeloid CpGmeth (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_6798_CpGmeth.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_1_ATAC
+type bigWig
+shortLabel Myeloid_1_ATAC
+longLabel Myeloid ATAC (replicate 1)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_R1.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
+track Myeloid_2_ATAC
+type bigWig
+shortLabel Myeloid_2_ATAC
+longLabel Myeloid ATAC (replicate 2)
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_R2.bw
+visibility full
+autoScale off
+viewLimits 0:20
+
