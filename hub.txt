@@ -1,5 +1,5 @@
 hub susScr11_sorted_cell
 shortLabel sorted cells
-longLabel UCSC hub for sorted cell signal (susScr11)
+longLabel UCSC hub for sorted cell signal 2026 (susScr11)
 genomesFile genomes.txt
 email mkapoor@iastate.edu
