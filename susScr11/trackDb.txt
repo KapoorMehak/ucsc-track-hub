@@ -1,22 +1,3 @@
-track Myeloid_1_RNA
-type bigWig
-shortLabel Myeloid_1_RNA
-longLabel Myeloid sorted cell signal (replicate 1)
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_1_sorted.bw
-visibility full
-autoScale off
-viewLimits 0:20
-
-track Myeloid_2_RNA
-type bigWig
-shortLabel Myeloid_2_RNA
-longLabel Myeloid sorted cell signal (replicate 2)
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_2_sorted.bw
-visibility full
-autoScale off
-viewLimits 0:20
-
-
 ########################################
 # RNA
 ########################################
