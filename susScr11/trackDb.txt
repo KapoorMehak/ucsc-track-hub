@@ -13,8 +13,8 @@ type bigWig 0 20
     track Myeloid_1_RNA
     parent RNA
     type bigWig
-    shortLabel RNA rep1
-    longLabel Myeloid RNA signal (replicate 1)
+    shortLabel Myeloid_1_RNA
+    longLabel Myeloid sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_1_sorted.bw
     visibility full
     autoScale off
@@ -25,8 +25,8 @@ type bigWig 0 20
     track Myeloid_2_RNA
     parent RNA
     type bigWig
-    shortLabel RNA rep2
-    longLabel Myeloid RNA signal (replicate 2)
+    shortLabel Myeloid_2_RNA
+    longLabel Myeloid sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_2_sorted.bw
     visibility full
     autoScale off
@@ -34,3 +34,182 @@ type bigWig 0 20
     maxHeightPixels 100:50:11
     color 147,112,219
 
+    track NK_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel NK_1_RNA
+    longLabel NK sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track Neut_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel Neut_1_RNA
+    longLabel Neutrophil sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neut_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track Neut_2_RNA
+    parent RNA
+    type bigWig
+    shortLabel Neut_2_RNA
+    longLabel Neutrophil sorted cell signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neut_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track SWC6gdT_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel SWC6gdT_1_RNA
+    longLabel SWC6gdT sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track SWC6gdT_2_RNA
+    parent RNA
+    type bigWig
+    shortLabel SWC6gdT_2_RNA
+    longLabel SWC6gdT sorted cell signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+   track CD8T_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD8T_1_RNA
+    longLabel CD8T sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8T_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track CD8T_2_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD8T_2_RNA
+    longLabel CD8T sorted cell signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8T_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+   track CD8CD4T_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD8CD4T_1_RNA
+    longLabel CD8CD4T sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8CD4T_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track CD8CD4T_2_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD8CD4T_2_RNA
+    longLabel CD8CD4T sorted cell signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8CD4T_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+   track CD4T_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD4T_1_RNA
+    longLabel CD4T sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4T_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track CD4T_2_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD4T_2_RNA
+    longLabel CD4T sorted cell signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4T_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+   track CD21pB_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD21pB_1_RNA
+    longLabel CD21pB sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21pB_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track CD21pB_2_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD21pB_2_RNA
+    longLabel CD21pB sorted cell signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21pB_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+   track CD21nB_1_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD21nB_1_RNA
+    longLabel CD21nB sorted cell signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21nB_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
+
+    track CD21nB_2_RNA
+    parent RNA
+    type bigWig
+    shortLabel CD21nB_2_RNA
+    longLabel CD21nB sorted cell signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21nB_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    maxHeightPixels 100:50:11
+    color 147,112,219
