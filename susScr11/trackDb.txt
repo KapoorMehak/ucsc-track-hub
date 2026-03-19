@@ -17,3 +17,36 @@ autoScale off
 viewLimits 0:20
 
 
+########################################
+# RNA
+########################################
+track RNA
+parent RNA
+compositeTrack on
+visibility hide
+allButtonPair on
+dragAndDrop subTracks
+
+    track Myeloid_1_RNA
+    parent Myeloid_RNA
+    type bigWig
+    shortLabel RNA rep1
+    longLabel Myeloid RNA signal (replicate 1)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_1_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    color 147,112,219
+
+
+    track Myeloid_2_RNA
+    parent Myeloid_RNA
+    type bigWig
+    shortLabel RNA rep2
+    longLabel Myeloid RNA signal (replicate 2)
+    bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_2_sorted.bw
+    visibility full
+    autoScale off
+    viewLimits 0:20
+    color 147,112,219
+
