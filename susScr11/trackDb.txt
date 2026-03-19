@@ -2,14 +2,16 @@
 # RNA
 ########################################
 track RNA
-parent RNA
 compositeTrack on
+shortLabel RNA
+longLabel RNA tracks across cell types
 visibility hide
 allButtonPair on
 dragAndDrop subTracks
+type bigWig 0 20
 
     track Myeloid_1_RNA
-    parent Myeloid_RNA
+    parent RNA
     type bigWig
     shortLabel RNA rep1
     longLabel Myeloid RNA signal (replicate 1)
@@ -17,11 +19,11 @@ dragAndDrop subTracks
     visibility full
     autoScale off
     viewLimits 0:20
+    maxHeightPixels 100:50:11
     color 147,112,219
 
-
     track Myeloid_2_RNA
-    parent Myeloid_RNA
+    parent RNA
     type bigWig
     shortLabel RNA rep2
     longLabel Myeloid RNA signal (replicate 2)
@@ -29,5 +31,6 @@ dragAndDrop subTracks
     visibility full
     autoScale off
     viewLimits 0:20
+    maxHeightPixels 100:50:11
     color 147,112,219
 
