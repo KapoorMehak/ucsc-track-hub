@@ -5,10 +5,12 @@ track RNA
 compositeTrack on
 shortLabel RNA
 longLabel RNA tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_RNA
     parent RNA
@@ -16,8 +18,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_RNA
     longLabel Myeloid sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track Myeloid_2_RNA
@@ -26,8 +26,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_RNA
     longLabel Myeloid sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track NK_1_RNA
@@ -36,8 +34,6 @@ type bigWig 0 20
     shortLabel NK_1_RNA
     longLabel NK sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track Neut_1_RNA
@@ -46,8 +42,6 @@ type bigWig 0 20
     shortLabel Neut_1_RNA
     longLabel Neutrophil sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neut_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track Neut_2_RNA
@@ -56,8 +50,6 @@ type bigWig 0 20
     shortLabel Neut_2_RNA
     longLabel Neutrophil sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neut_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track SWC6gdT_1_RNA
@@ -66,8 +58,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_RNA
     longLabel SWC6gdT sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track SWC6gdT_2_RNA
@@ -76,8 +66,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_RNA
     longLabel SWC6gdT sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
    track CD8T_1_RNA
@@ -86,8 +74,6 @@ type bigWig 0 20
     shortLabel CD8T_1_RNA
     longLabel CD8T sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8T_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track CD8T_2_RNA
@@ -96,8 +82,6 @@ type bigWig 0 20
     shortLabel CD8T_2_RNA
     longLabel CD8T sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8T_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
    track CD8CD4T_1_RNA
@@ -106,8 +90,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_RNA
     longLabel CD8CD4T sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8CD4T_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track CD8CD4T_2_RNA
@@ -116,8 +98,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_RNA
     longLabel CD8CD4T sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8CD4T_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
    track CD4T_1_RNA
@@ -126,8 +106,6 @@ type bigWig 0 20
     shortLabel CD4T_1_RNA
     longLabel CD4T sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4T_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track CD4T_2_RNA
@@ -136,8 +114,6 @@ type bigWig 0 20
     shortLabel CD4T_2_RNA
     longLabel CD4T sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4T_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
    track CD21pB_1_RNA
@@ -146,8 +122,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_RNA
     longLabel CD21pB sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21pB_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track CD21pB_2_RNA
@@ -156,8 +130,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_RNA
     longLabel CD21pB sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21pB_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
    track CD21nB_1_RNA
@@ -166,8 +138,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_RNA
     longLabel CD21nB sorted cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21nB_1_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
     track CD21nB_2_RNA
@@ -176,8 +146,6 @@ type bigWig 0 20
     shortLabel CD21nB_2_RNA
     longLabel CD21nB sorted cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21nB_2_sorted.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 147,112,219
 
 ########################################
@@ -187,10 +155,12 @@ track H3K27ac
 compositeTrack on
 shortLabel H3K27ac
 longLabel H3K27ac tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_H3K27ac
     parent H3K27ac
@@ -198,8 +168,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_H3K27ac
     longLabel Myeloid H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track Myeloid_2_H3K27ac
@@ -208,8 +176,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_H3K27ac
     longLabel Myeloid H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track NK_1_H3K27ac
@@ -218,8 +184,6 @@ type bigWig 0 20
     shortLabel NK_1_H3K27ac
     longLabel NK H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track NK_2_H3K27ac
@@ -228,8 +192,6 @@ type bigWig 0 20
     shortLabel NK_2_H3K27ac
     longLabel NK H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track Neut_1_H3K27ac
@@ -238,8 +200,6 @@ type bigWig 0 20
     shortLabel Neut_1_H3K27ac
     longLabel Neutrophil H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track Neut_2_H3K27ac
@@ -248,8 +208,6 @@ type bigWig 0 20
     shortLabel Neut_2_H3K27ac
     longLabel Neutrophil H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track SWC6gdT_1_H3K27ac
@@ -258,8 +216,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_H3K27ac
     longLabel SWC6gdT H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track SWC6gdT_2_H3K27ac
@@ -268,8 +224,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_H3K27ac
     longLabel SWC6gdT H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
    track CD8T_1_H3K27ac
@@ -278,8 +232,6 @@ type bigWig 0 20
     shortLabel CD8T_1_H3K27ac
     longLabel CD8T H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track CD8T_2_H3K27ac
@@ -298,8 +250,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_H3K27ac
     longLabel CD8CD4T H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track CD8CD4T_2_H3K27ac
@@ -308,8 +258,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_H3K27ac
     longLabel CD8CD4T H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
    track CD4T_1_H3K27ac
@@ -318,8 +266,6 @@ type bigWig 0 20
     shortLabel CD4T_1_H3K27ac
     longLabel CD4T H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track CD4T_2_H3K27ac
@@ -328,8 +274,6 @@ type bigWig 0 20
     shortLabel CD4T_2_H3K27ac
     longLabel CD4T H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
    track CD21pB_1_H3K27ac
@@ -338,8 +282,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_H3K27ac
     longLabel CD21pB H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track CD21pB_2_H3K27ac
@@ -348,8 +290,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_H3K27ac
     longLabel CD21pB H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
    track CD21nB_1_H3K27ac
@@ -358,8 +298,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_H3K27ac
     longLabel CD21nB H3K27ac cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N00K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
     track CD21nB_2_H3K27ac
@@ -368,8 +306,6 @@ type bigWig 0 20
     shortLabel CD21nB_2_H3K27ac
     longLabel CD21nB H3K27ac cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N98K27ac_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 244,180,0
 
 ########################################
@@ -379,10 +315,12 @@ track ATAC
 compositeTrack on
 shortLabel ATAC
 longLabel ATAC tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_ATAC
     parent ATAC
@@ -390,8 +328,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_ATAC
     longLabel Myeloid ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track Myeloid_2_ATAC
@@ -400,8 +336,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_ATAC
     longLabel Myeloid ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track NK_1_ATAC
@@ -410,8 +344,6 @@ type bigWig 0 20
     shortLabel NK_1_ATAC
     longLabel NK ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track NK_2_ATAC
@@ -420,8 +352,6 @@ type bigWig 0 20
     shortLabel NK_2_ATAC
     longLabel NK ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track Neut_1_ATAC
@@ -430,8 +360,6 @@ type bigWig 0 20
     shortLabel Neut_1_ATAC
     longLabel Neutrophil ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neut_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track Neut_2_ATAC
@@ -440,8 +368,6 @@ type bigWig 0 20
     shortLabel Neut_2_ATAC
     longLabel Neutrophil ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neut_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track SWC6gdT_1_ATAC
@@ -450,8 +376,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_ATAC
     longLabel SWC6gdT ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track SWC6gdT_2_ATAC
@@ -460,8 +384,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_ATAC
     longLabel SWC6gdT ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
    track CD8T_1_ATAC
@@ -470,8 +392,6 @@ type bigWig 0 20
     shortLabel CD8T_1_ATAC
     longLabel CD8T ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8T_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track CD8T_2_ATAC
@@ -480,8 +400,6 @@ type bigWig 0 20
     shortLabel CD8T_2_ATAC
     longLabel CD8T ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8T_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
    track CD8CD4T_1_ATAC
@@ -490,8 +408,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_ATAC
     longLabel CD8CD4T ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8CD4T_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track CD8CD4T_2_ATAC
@@ -500,8 +416,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_ATAC
     longLabel CD8CD4T ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8CD4T_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
    track CD4T_1_ATAC
@@ -510,8 +424,6 @@ type bigWig 0 20
     shortLabel CD4T_1_ATAC
     longLabel CD4T ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4T_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track CD4T_2_ATAC
@@ -520,8 +432,6 @@ type bigWig 0 20
     shortLabel CD4T_2_ATAC
     longLabel CD4T ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4T_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
    track CD21pB_1_ATAC
@@ -530,8 +440,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_ATAC
     longLabel CD21pB ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21p_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track CD21pB_2_ATAC
@@ -540,8 +448,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_ATAC
     longLabel CD21pB ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21p_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
    track CD21nB_1_ATAC
@@ -550,8 +456,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_ATAC
     longLabel CD21nB ATAC cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21n_R1.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
     track CD21nB_2_ATAC
@@ -560,8 +464,6 @@ type bigWig 0 20
     shortLabel CD21nB_2_ATAC
     longLabel CD21nB ATAC cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21n_R2.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 139,0,0
 
 ########################################
@@ -571,10 +473,12 @@ track H3K4me3
 compositeTrack on
 shortLabel H3K4me3
 longLabel H3K4me3 tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_H3K4me3
     parent H3K4me3
@@ -582,8 +486,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_H3K4me3
     longLabel Myeloid H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track Myeloid_2_H3K4me3
@@ -592,8 +494,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_H3K4me3
     longLabel Myeloid H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track NK_1_H3K4me3
@@ -602,8 +502,6 @@ type bigWig 0 20
     shortLabel NK_1_H3K4me3
     longLabel NK H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track NK_2_H3K4me3
@@ -612,8 +510,6 @@ type bigWig 0 20
     shortLabel NK_2_H3K4me3
     longLabel NK H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track Neut_1_H3K4me3
@@ -622,8 +518,6 @@ type bigWig 0 20
     shortLabel Neut_1_H3K4me3
     longLabel Neutrophil H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track Neut_2_H3K4me3
@@ -632,8 +526,6 @@ type bigWig 0 20
     shortLabel Neut_2_H3K4me3
     longLabel Neutrophil H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track SWC6gdT_1_H3K4me3
@@ -642,8 +534,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_H3K4me3
     longLabel SWC6gdT H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track SWC6gdT_2_H3K4me3
@@ -652,8 +542,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_H3K4me3
     longLabel SWC6gdT H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
    track CD8T_1_H3K4me3
@@ -662,8 +550,6 @@ type bigWig 0 20
     shortLabel CD8T_1_H3K4me3
     longLabel CD8T H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track CD8T_2_H3K4me3
@@ -672,8 +558,6 @@ type bigWig 0 20
     shortLabel CD8T_2_H3K4me3
     longLabel CD8T H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
    track CD8CD4T_1_H3K4me3
@@ -682,8 +566,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_H3K4me3
     longLabel CD8CD4T H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track CD8CD4T_2_H3K4me3
@@ -692,8 +574,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_H3K4me3
     longLabel CD8CD4T H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
    track CD4T_1_H3K4me3
@@ -702,8 +582,6 @@ type bigWig 0 20
     shortLabel CD4T_1_H3K4me3
     longLabel CD4T H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track CD4T_2_H3K4me3
@@ -712,8 +590,6 @@ type bigWig 0 20
     shortLabel CD4T_2_H3K4me3
     longLabel CD4T H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
    track CD21pB_1_H3K4me3
@@ -722,8 +598,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_H3K4me3
     longLabel CD21pB H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track CD21pB_2_H3K4me3
@@ -732,8 +606,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_H3K4me3
     longLabel CD21pB H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
    track CD21nB_1_H3K4me3
@@ -742,8 +614,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_H3K4me3
     longLabel CD21nB H3K4me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N00K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
     track CD21nB_2_H3K4me3
@@ -752,8 +622,6 @@ type bigWig 0 20
     shortLabel CD21nB_2_H3K4me3
     longLabel CD21nB H3K4me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N98K4me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 204,255,102
 
 ########################################
@@ -763,10 +631,12 @@ track H3K4me1
 compositeTrack on
 shortLabel H3K4me1
 longLabel H3K4me1 tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_H3K4me1
     parent H3K4me1
@@ -774,8 +644,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_H3K4me1
     longLabel Myeloid H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track Myeloid_2_H3K4me1
@@ -784,8 +652,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_H3K4me1
     longLabel Myeloid H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track NK_1_H3K4me1
@@ -794,8 +660,6 @@ type bigWig 0 20
     shortLabel NK_1_H3K4me1
     longLabel NK H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track NK_2_H3K4me1
@@ -804,8 +668,6 @@ type bigWig 0 20
     shortLabel NK_2_H3K4me1
     longLabel NK H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track Neut_1_H3K4me1
@@ -814,8 +676,6 @@ type bigWig 0 20
     shortLabel Neut_1_H3K4me1
     longLabel Neutrophil H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track Neut_2_H3K4me1
@@ -824,8 +684,6 @@ type bigWig 0 20
     shortLabel Neut_2_H3K4me1
     longLabel Neutrophil H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track SWC6gdT_1_H3K4me1
@@ -834,8 +692,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_H3K4me1
     longLabel SWC6gdT H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track SWC6gdT_2_H3K4me1
@@ -844,8 +700,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_H3K4me1
     longLabel SWC6gdT H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
    track CD8T_1_H3K4me1
@@ -854,8 +708,6 @@ type bigWig 0 20
     shortLabel CD8T_1_H3K4me1
     longLabel CD8T H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track CD8T_2_H3K4me1
@@ -864,8 +716,6 @@ type bigWig 0 20
     shortLabel CD8T_2_H3K4me1
     longLabel CD8T H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
    track CD8CD4T_1_H3K4me1
@@ -874,8 +724,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_H3K4me1
     longLabel CD8CD4T H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track CD8CD4T_2_H3K4me1
@@ -884,8 +732,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_H3K4me1
     longLabel CD8CD4T H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
    track CD4T_1_H3K4me1
@@ -894,8 +740,6 @@ type bigWig 0 20
     shortLabel CD4T_1_H3K4me1
     longLabel CD4T H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track CD4T_2_H3K4me1
@@ -904,8 +748,6 @@ type bigWig 0 20
     shortLabel CD4T_2_H3K4me1
     longLabel CD4T H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
    track CD21pB_1_H3K4me1
@@ -914,8 +756,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_H3K4me1
     longLabel CD21pB H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track CD21pB_2_H3K4me1
@@ -924,8 +764,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_H3K4me1
     longLabel CD21pB H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
    track CD21nB_1_H3K4me1
@@ -934,8 +772,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_H3K4me1
     longLabel CD21nB H3K4me1 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N00K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
     track CD21nB_2_H3K4me1
@@ -944,8 +780,6 @@ type bigWig 0 20
     shortLabel CD21nB_2_H3K4me1
     longLabel CD21nB H3K4me1 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N98K4me1_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,158,115
 
 ########################################
@@ -955,10 +789,12 @@ track H3K27me3
 compositeTrack on
 shortLabel H3K27me3
 longLabel H3K27me3 tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_H3K27me3
     parent H3K27me3
@@ -966,8 +802,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_H3K27me3
     longLabel Myeloid H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track Myeloid_2_H3K27me3
@@ -976,8 +810,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_H3K27me3
     longLabel Myeloid H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track NK_1_H3K27me3
@@ -986,8 +818,6 @@ type bigWig 0 20
     shortLabel NK_1_H3K27me3
     longLabel NK H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track NK_2_H3K27me3
@@ -996,8 +826,6 @@ type bigWig 0 20
     shortLabel NK_2_H3K27me3
     longLabel NK H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track Neut_1_H3K27me3
@@ -1006,8 +834,6 @@ type bigWig 0 20
     shortLabel Neut_1_H3K27me3
     longLabel Neutrophil H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track Neut_2_H3K27me3
@@ -1016,8 +842,6 @@ type bigWig 0 20
     shortLabel Neut_2_H3K27me3
     longLabel Neutrophil H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track SWC6gdT_1_H3K27me3
@@ -1026,8 +850,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_H3K27me3
     longLabel SWC6gdT H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track SWC6gdT_2_H3K27me3
@@ -1036,8 +858,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_H3K27me3
     longLabel SWC6gdT H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
    track CD8T_1_H3K27me3
@@ -1046,8 +866,6 @@ type bigWig 0 20
     shortLabel CD8T_1_H3K27me3
     longLabel CD8T H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track CD8T_2_H3K27me3
@@ -1056,8 +874,6 @@ type bigWig 0 20
     shortLabel CD8T_2_H3K27me3
     longLabel CD8T H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
    track CD8CD4T_1_H3K27me3
@@ -1066,8 +882,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_H3K27me3
     longLabel CD8CD4T H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track CD8CD4T_2_H3K27me3
@@ -1076,8 +890,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_H3K27me3
     longLabel CD8CD4T H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
    track CD4T_1_H3K27me3
@@ -1086,8 +898,6 @@ type bigWig 0 20
     shortLabel CD4T_1_H3K27me3
     longLabel CD4T H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track CD4T_2_H3K27me3
@@ -1096,8 +906,6 @@ type bigWig 0 20
     shortLabel CD4T_2_H3K27me3
     longLabel CD4T H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
    track CD21pB_1_H3K27me3
@@ -1106,8 +914,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_H3K27me3
     longLabel CD21pB H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track CD21pB_2_H3K27me3
@@ -1116,8 +922,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_H3K27me3
     longLabel CD21pB H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
    track CD21nB_1_H3K27me3
@@ -1126,8 +930,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_H3K27me3
     longLabel CD21nB H3K27me3 cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N00K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
     track CD21nB_2_H3K27me3
@@ -1136,8 +938,6 @@ type bigWig 0 20
     shortLabel CD21nB_2_H3K27me3
     longLabel CD21nB H3K27me3 cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N98K27me3_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 0,114,189
 
 ########################################
@@ -1147,10 +947,12 @@ track CpGmeth
 compositeTrack on
 shortLabel CpGmeth
 longLabel CpGmeth tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_CpGmeth
     parent CpGmeth
@@ -1158,8 +960,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_CpGmeth
     longLabel Myeloid CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track Myeloid_2_CpGmeth
@@ -1168,8 +968,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_CpGmeth
     longLabel Myeloid CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Myeloid_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track NK_1_CpGmeth
@@ -1178,8 +976,6 @@ type bigWig 0 20
     shortLabel NK_1_CpGmeth
     longLabel NK CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track NK_2_CpGmeth
@@ -1188,8 +984,6 @@ type bigWig 0 20
     shortLabel NK_2_CpGmeth
     longLabel NK CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track Neut_1_CpGmeth
@@ -1198,8 +992,6 @@ type bigWig 0 20
     shortLabel Neut_1_CpGmeth
     longLabel Neutrophil CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track Neut_2_CpGmeth
@@ -1208,8 +1000,6 @@ type bigWig 0 20
     shortLabel Neut_2_CpGmeth
     longLabel Neutrophil CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track SWC6gdT_1_CpGmeth
@@ -1218,8 +1008,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_CpGmeth
     longLabel SWC6gdT CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track SWC6gdT_2_CpGmeth
@@ -1228,8 +1016,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_CpGmeth
     longLabel SWC6gdT CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/SWC6gdT_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
    track CD8T_1_CpGmeth
@@ -1238,8 +1024,6 @@ type bigWig 0 20
     shortLabel CD8T_1_CpGmeth
     longLabel CD8T CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track CD8T_2_CpGmeth
@@ -1248,8 +1032,6 @@ type bigWig 0 20
     shortLabel CD8T_2_CpGmeth
     longLabel CD8T CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
    track CD8CD4T_1_CpGmeth
@@ -1258,8 +1040,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_CpGmeth
     longLabel CD8CD4T CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track CD8CD4T_2_CpGmeth
@@ -1268,8 +1048,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_CpGmeth
     longLabel CD8CD4T CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
    track CD4T_1_CpGmeth
@@ -1278,8 +1056,6 @@ type bigWig 0 20
     shortLabel CD4T_1_CpGmeth
     longLabel CD4T CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track CD4T_2_CpGmeth
@@ -1288,8 +1064,6 @@ type bigWig 0 20
     shortLabel CD4T_2_CpGmeth
     longLabel CD4T CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
    track CD21pB_1_CpGmeth
@@ -1298,8 +1072,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_CpGmeth
     longLabel CD21pB CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track CD21pB_2_CpGmeth
@@ -1308,8 +1080,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_CpGmeth
     longLabel CD21pB CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
    track CD21nB_1_CpGmeth
@@ -1318,8 +1088,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_CpGmeth
     longLabel CD21nB CpGmeth cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N_6798_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
     track CD21nB_2_CpGmeth
@@ -1328,8 +1096,6 @@ type bigWig 0 20
     shortLabel CD21nB_2_CpGmeth
     longLabel CD21nB CpGmeth cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N_6800_CpGmeth.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 102,0,153
 
 ########################################
@@ -1339,10 +1105,12 @@ track CTCF
 compositeTrack on
 shortLabel CTCF
 longLabel CTCF tracks across cell types
-visibility hide
+visibility full
 allButtonPair on
 dragAndDrop subTracks
-type bigWig 0 20
+type bigWig 0 100
+autoScale group
+maxHeightPixels 30:30:30
 
     track Myeloid_1_CTCF
     parent CTCF
@@ -1350,8 +1118,6 @@ type bigWig 0 20
     shortLabel Myeloid_1_CTCF
     longLabel Myeloid CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track Myeloid_2_CTCF
@@ -1360,8 +1126,6 @@ type bigWig 0 20
     shortLabel Myeloid_2_CTCF
     longLabel Myeloid CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/My98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track NK_1_CTCF
@@ -1370,8 +1134,6 @@ type bigWig 0 20
     shortLabel NK_1_CTCF
     longLabel NK CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track NK_2_CTCF
@@ -1380,8 +1142,6 @@ type bigWig 0 20
     shortLabel NK_2_CTCF
     longLabel NK CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/NK98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track Neut_1_CTCF
@@ -1390,8 +1150,6 @@ type bigWig 0 20
     shortLabel Neut_1_CTCF
     longLabel Neutrophil CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track Neut_2_CTCF
@@ -1400,8 +1158,6 @@ type bigWig 0 20
     shortLabel Neut_2_CTCF
     longLabel Neutrophil CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/Neu98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track SWC6gdT_1_CTCF
@@ -1410,8 +1166,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_1_CTCF
     longLabel SWC6gdT CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track SWC6gdT_2_CTCF
@@ -1420,8 +1174,6 @@ type bigWig 0 20
     shortLabel SWC6gdT_2_CTCF
     longLabel SWC6gdT CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/GD98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
    track CD8T_1_CTCF
@@ -1430,8 +1182,6 @@ type bigWig 0 20
     shortLabel CD8T_1_CTCF
     longLabel CD8T CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track CD8T_2_CTCF
@@ -1440,8 +1190,6 @@ type bigWig 0 20
     shortLabel CD8T_2_CTCF
     longLabel CD8T CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8P98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
    track CD8CD4T_1_CTCF
@@ -1450,8 +1198,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_1_CTCF
     longLabel CD8CD4T CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track CD8CD4T_2_CTCF
@@ -1460,8 +1206,6 @@ type bigWig 0 20
     shortLabel CD8CD4T_2_CTCF
     longLabel CD8CD4T CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD8PCD4P98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
    track CD4T_1_CTCF
@@ -1470,8 +1214,6 @@ type bigWig 0 20
     shortLabel CD4T_1_CTCF
     longLabel CD4T CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track CD4T_2_CTCF
@@ -1480,8 +1222,6 @@ type bigWig 0 20
     shortLabel CD4T_2_CTCF
     longLabel CD4T CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD4P98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
    track CD21pB_1_CTCF
@@ -1490,8 +1230,6 @@ type bigWig 0 20
     shortLabel CD21pB_1_CTCF
     longLabel CD21pB CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track CD21pB_2_CTCF
@@ -1500,8 +1238,6 @@ type bigWig 0 20
     shortLabel CD21pB_2_CTCF
     longLabel CD21pB CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21P98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
    track CD21nB_1_CTCF
@@ -1510,8 +1246,6 @@ type bigWig 0 20
     shortLabel CD21nB_1_CTCF
     longLabel CD21nB CTCF cell signal (replicate 1)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N00CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
 
     track CD21nB_2_CTCF
@@ -1520,6 +1254,4 @@ type bigWig 0 20
     shortLabel CD21nB_2_CTCF
     longLabel CD21nB CTCF cell signal (replicate 2)
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/mehakkapoor/ucsc_hubs/susScr11_sorted_cell/susScr11/CD21N98CTCF_merged.bw
-    visibility full
-    maxHeightPixels 100:50:11
     color 50,50,50
